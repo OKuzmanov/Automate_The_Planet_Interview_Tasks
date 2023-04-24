@@ -14,7 +14,7 @@ import java.util.List;
 public class ZipCodesTests extends BaseTest {
 
     @Test
-    public void testApp() {
+    public void test_gatherFirstTenZipCodeDetailsAndTakeScreenshots() {
         HomePage homePage = initializeHomePage();
 
         homePage.goToUrl();
